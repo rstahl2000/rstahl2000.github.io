@@ -1,0 +1,25 @@
+.prev{
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    float: left;
+}
+.next{
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    float: right;
+}
+.return{
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    text-align: center;
+}
+.subhead{
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+}
+body {background-color: lightgray;}
+h1 {color: darkslategray;}
+h2 {color: rgb(80, 80, 80)}
+p  {color: black;}

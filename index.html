@@ -3,35 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Bobby Stahl Website</title>
-        <style>
-            .title{
-                text-align: center;
-                border-style: outset;
-                border-color: white;
-                border-radius: 8px;
-                margin-right: 30%;
-                margin-left: 30%;
-                font-family:  monaco, Consolas, "Lucida Console", monospace;
-            }
-            .main{
-                text-align: center;
-                font-size: 14pt;
-                font-family:  monaco, Consolas, "Lucida Console", monospace;
-
-            }
-            .prev{
-                font-family:  monaco, Consolas, "Lucida Console", monospace;
-                float: left;
-            }
-            .next{
-                font-family:  monaco, Consolas, "Lucida Console", monospace;
-                float: right;
-            }
-            body {background-color: lightgray;}
-            h1 {color: darkslategray;}
-            p  {color: black;}
-            
-        </style>
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/navBar.css">
     </head>
     <body>
         <div class="title">
@@ -45,9 +18,16 @@
                 Full Name: Robert Stahl <br>
                 Name I Go By: Bobby
             </p>
-            <a href="./aboutMe.html">Bio</a>
         </div>
-        <a href="https://sobotab.github.io" class="prev">Previous Student</a>
-        <a href="https://tjstumpy.github.io" class="next">Next Student</a>
+        <div class="navbar">
+            <ul>
+                <li><a href="https://sobotab.github.io">Previous Student</a></li>
+                <li><a href="https://rstahl2000.github.io" class="active">Home</a></li>
+                <li><a href="https://mattm401.github.io/">Course Website</a></li>
+                <li> <a href="./aboutMe.html">Bio</a></li>
+                <li><a href="">Contact Me</a></li>
+                <li> <a href="https://tjstumpy.github.io">Next Student</a></li>
+            </ul>
+        </div>
     </body>
 </html>
