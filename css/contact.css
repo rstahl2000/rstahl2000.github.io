@@ -1,0 +1,37 @@
+body {background-color: lightgray;}
+h1 {
+    color: darkslategray; 
+    text-align: center;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: xx-large;
+}
+#contact{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+
+}
+input[type=text]{
+    border: black;
+    border-style: solid;
+    border-radius: 1px;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    color: black;
+}
+label{
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: large;
+}
+#submit{
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+}
+#user_message{
+    height: 1in;
+}
+textarea{
+    border: black;
+    border-style: solid;
+    border-radius: 1px;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    color: black;
+}
