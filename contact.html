@@ -5,18 +5,24 @@
         <title>Contact Form</title>
         <link rel="stylesheet" href="./css/contact.css">
         <link rel="stylesheet" href="./css/navBar.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('user_3G9f8tq2Flc2NMyPvcvWl');
+            })();
+        </script>
         <script src="./js/contactForm.js"></script>
     </head>
     <body>
         <h1>Contact Form</h1>
-        <form id="contact" onsubmit="return validateForm()">
+        <form id="contact">
             <label for="user_fname">First Name</label>
             <br>
             <input type="text" id="user_fname" name="user_fname" placeholder="First Name">
             <br>
             <label for="user_lname">Last Name</label>
             <br>
-            <input type="text" id="user_lname" name="user_lname"placeholder="Last Name">
+            <input type="text" id="user_lname" name="user_lname" placeholder="Last Name">
             <br>
             <label for="user_email">Email</label>
             <br>

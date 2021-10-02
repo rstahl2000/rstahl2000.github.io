@@ -1,3 +1,17 @@
+window.onload = function() {
+    document.getElementById('contact').addEventListener('submit', function(event) {
+        event.preventDefault();
+        if(validateForm()){
+            emailjs.sendForm('service_mymqsp7', 'template_6nzyk6k', this)
+            .then(function() {
+                alert('Message Successfully Sent');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+        };
+    }
+    )
+}
 function validateForm(){
     let isValid=true
     let x = document.forms["contact"]["user_fname"].value;
@@ -25,4 +39,5 @@ function validateForm(){
         alert("A message must be left.");
         isValid=false
     }
+    return isValid
 }
