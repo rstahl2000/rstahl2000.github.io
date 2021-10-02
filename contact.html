@@ -5,10 +5,11 @@
         <title>Contact Form</title>
         <link rel="stylesheet" href="./css/contact.css">
         <link rel="stylesheet" href="./css/navBar.css">
+        <script src="./js/contactForm.js"></script>
     </head>
     <body>
         <h1>Contact Form</h1>
-        <form id="contact">
+        <form id="contact" onsubmit="return validateForm()">
             <label for="user_fname">First Name</label>
             <br>
             <input type="text" id="user_fname" name="user_fname" placeholder="First Name">
