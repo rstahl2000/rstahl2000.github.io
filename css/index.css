@@ -22,6 +22,9 @@
     font-family:  monaco, Consolas, "Lucida Console", monospace;
     float: right;
 }
-body {background-color: lightgray;}
+body {
+    background-color: lightgray;
+    margin:0%;
+}
 h1 {color: darkslategray;}
 p  {color: black;}

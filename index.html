@@ -3,14 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>Bobby Stahl Website</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211560330-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-211560330-1');
+        </script>
+
         <link rel="stylesheet" href="./css/index.css">
         <link rel="stylesheet" href="./css/navBar.css">
+        <link rel="stylesheet" href="./css/footer.css">
     </head>
     <body>
+        <div class="navbar">
+            <ul>
+                <!--<li><a href="https://sobotab.github.io">Previous Student</a></li>-->
+                <li><a href="https://rstahl2000.github.io" class="active">Home</a></li>
+                <!--<li><a href="https://mattm401.github.io/">Course Website</a></li>-->
+                <li> <a href="./aboutMe.html">Bio</a></li>
+                <li><a href="./contact.html">Contact Me</a></li>
+                <!--<li> <a href="https://tjstumpy.github.io">Next Student</a></li>-->
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn">Course Links</button>
+                <div class="dropdown-content">
+                  <a href="#">Course Website</a>
+                  <a href="#">Next Student</a>
+                  <a href="#">Previous Student</a>
+                </div>
+              </div>
+        </div>
         <div class="title">
             <h1>Bobby Stahl</h1>
             <!--Robert Stahl,CISC474-010,Personal Web Page 1,rstahl@udel.edu-->
-            <img src="./pr1_picture.jpg" alt="Self-portrait"  height="500" width="400">
+            <img src="./img/pr1_picture.jpg" alt="Self-portrait"  height="500" width="400">
         </div>
         <div class="main">
             <p>
@@ -19,15 +48,9 @@
                 Name I Go By: Bobby
             </p>
         </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="https://sobotab.github.io">Previous Student</a></li>
-                <li><a href="https://rstahl2000.github.io" class="active">Home</a></li>
-                <li><a href="https://mattm401.github.io/">Course Website</a></li>
-                <li> <a href="./aboutMe.html">Bio</a></li>
-                <li><a href="./contact.html">Contact Me</a></li>
-                <li> <a href="https://tjstumpy.github.io">Next Student</a></li>
-            </ul>
-        </div>
+        <footer class="footer">
+            <p>Author: Robert Stahl</p>
+            <p>Contact Me:</p>
+        </footer>
     </body>
 </html>

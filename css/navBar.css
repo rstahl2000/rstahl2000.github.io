@@ -1,8 +1,5 @@
 .navbar {
     background-color: gray;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
     width: 100%;
   }
   .navbar ul{
@@ -11,14 +8,14 @@
     padding: 0;
   }
   .navbar li {
-    float: left;
+    float:left;
   }
   .navbar a{
     font-family:  monaco, Consolas, "Lucida Console", monospace;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1vh 10vw;
     text-decoration: none;
   }
   .navbar a:hover {
@@ -29,3 +26,46 @@
     background-color: black;
     color: white;
   }
+  .dropbtn {
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    background-color: gray;
+    color: white;
+    padding: 1vh 9vw;
+    border: none;
+    display:block;
+    text-decoration: none;
+    font-size: 2.5vh;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 1vh 10vw;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
