@@ -1,6 +1,24 @@
 .footer{
-    border: thick;
-    border-top: slategrey;
-    border-top-width: 1vh;
-    background-color: whitesmoke;
+    border-top-color: white;
+    border-top-width: .5vh;
+    border-top-style: solid;
+    background-color: dimgray;
+    width: 100%;
+    padding: 1vh 2vw
+}
+.contact{
+    padding: 2vh 10vw;
+    text-align: center;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    margin: 0%;
+    float: inline;
+    display: block;
+    background-color: dimgray;
+    color: whitesmoke;
+    text-decoration: none;
+    border: none;
+}
+.footer a{
+    float: left;
+    display: inline;
 }
