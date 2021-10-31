@@ -1,18 +1,28 @@
 .title{
-    text-align: center;
     border-style: outset;
     border-color: white;
     border-radius: 8px;
-    margin-right: 30%;
-    margin-left: 30%;
     font-family:  monaco, Consolas, "Lucida Console", monospace;
+    padding: 10vh 10vh;
+    width: 90%;
+    height: 80%;
+}
+.selfpic{
+    float: left;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 .main{
     text-align: center;
     font-size: 14pt;
     font-family:  monaco, Consolas, "Lucida Console", monospace;
     padding-bottom: 2cm;
-
+    float: inline-start;
+}
+.main a{
+    color: black;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: large;
 }
 .prev{
     font-family:  monaco, Consolas, "Lucida Console", monospace;
