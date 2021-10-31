@@ -32,6 +32,9 @@
     font-family:  monaco, Consolas, "Lucida Console", monospace;
     float: right;
 }
+.footer{
+    position: relative;
+}
 html{height: 100%;}
 body {
     background-color: lightgray;

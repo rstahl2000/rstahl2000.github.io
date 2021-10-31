@@ -4,6 +4,8 @@
     border-top-style: solid;
     background-color: dimgray;
     width: 100%;
+    position: fixed;
+    bottom: 0;
     padding: 1vh 2vw
 }
 .contact{
