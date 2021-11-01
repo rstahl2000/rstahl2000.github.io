@@ -1,0 +1,37 @@
+html{height: 100%;}
+body {
+    background-color: lightgray;
+    margin:0%;
+    min-height: 100%;
+}
+h1 {
+    color: darkslategray; 
+    text-align: center;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: xx-large;
+}
+p {
+    color: black; 
+    text-align: left;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: medium;
+}
+a {
+    color: darkslateblue; 
+    text-align: center;
+    font-family:  monaco, Consolas, "Lucida Console", monospace;
+    font-size: large;
+}
+.poster{
+    float: left;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+    width: 45%;
+    padding-left: 1vw;
+}
+.skatestop{
+    float: right;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+    width: 45%;
+}
